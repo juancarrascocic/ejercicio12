@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace ejercicio12
 {
-    public class Class1
+    public class Receta
     {
+        public string Nombre { get; set; }
+        public double Peso { get; set; }
     }
 }
